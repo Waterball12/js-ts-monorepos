@@ -24,10 +24,12 @@
     "scripty": "^2.0.0"
   },
   "scripts": {
+    "start": "scripty",
     "clean": "scripty",
     "test": "scripty",
     "lint": "scripty",
-    "build": "scripty"
+    "build": "scripty",
+    "dev": "scripty"
   },
   "scripty": {
     "path": "./scripts/workspace"
